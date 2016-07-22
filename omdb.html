@@ -1,0 +1,23 @@
+
+<div class="container ">
+
+    <form class="form-inline searchform" ng-submit="titleSearch()">
+
+        <div class="input-group stylish-input-group">
+            <input type="text" ng-model="searchParam" class="form-control" id="search" placeholder="Movie Name" required>
+            <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+            </span>
+        </div>
+    </form>
+    <div class="results">
+        <div class="result" ng-if="movieResults" ng-repeat="movie in movieResults | orderBy: '-Year'">
+            <img ng-if="movie.Poster!='N/A'" ng-src="{{movie.Poster ? movie.Poster : 'no-image-200.jpg'}}" class="img-responsive poster">
+            <img ng-if="movie.Poster=='N/A'" src="no-image-200.jpg" class="img-responsive poster">
+            <div ng-click="movieDetail(movie.imdbID)">{{movie.Title}} ({{movie.Year}})</div>
+        </div>
+    </div>
+    <div class="noresults"></div>
+</div>

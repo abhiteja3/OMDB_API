@@ -1,0 +1,37 @@
+<button ng-click="back()" class="btn btnback">Back to Search</button>
+
+<div class="container details">
+    <div class="row maindetail">
+        <h2>{{movieStuff.Title}}</h2>
+        <div class="col-md-6">
+            <img ng-src="{{movieStuff.Poster}}" class="img-responsive img-thumbnail posterDetail">
+        </div>
+        <div class="col-md-6">
+            <h3>Director: {{movieStuff.Director}}</h3>
+            <h3>imdb Rating: {{movieStuff.imdbRating}}</h3>
+            <h5>Starring: {{movieStuff.Actors}}</h5>
+            <br><br>
+            <h5>{{movieStuff.Plot}}</h5>
+        </div>
+    </div>
+    <div class="row">
+        <h4>Additional Movie Information</h4>
+        <div class="infos">
+            <div class="col-md-6 infocolumns">
+                <h5 class="info">Released: {{movieStuff.Released}}</h5>
+                <h5 class="info">Rated: {{movieStuff.Rated}}</h5>
+                <h5 class="info">Genre: {{movieStuff.Genre}}</h5>
+                <h5 class="info">Awards: {{movieStuff.Awards}}</h5>
+            </div>
+            <div class="col-md-6 infocolumns">
+                <h5 class="info">Write: {{movieStuff.Writer}}</h5>
+                <h5 class="info">Runtime: {{movieStuff.Runtime}}</h5>
+                <h5 class="info">Country: {{movieStuff.Country}}</h5>
+                <h5 class="info">Language: {{movieStuff.Language}}</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

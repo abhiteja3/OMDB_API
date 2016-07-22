@@ -1,0 +1,97 @@
+
+.main{
+    background:chocolate;
+}
+.main p{
+    text-align: center;
+}
+
+.results{
+    background:antiquewhite;
+    padding:0px;
+    position:relative;
+}
+.result{
+    padding:10px;
+    height: 180px;
+    width: auto;
+    margin:30px 10px;
+
+}
+.result img{
+    height: 180px;
+    width: 140px;
+    float: left;
+}
+.result div{
+    width: 350px;
+    margin-left: 10px;
+    float: left;
+    padding:10px;
+}
+.result div:hover{
+    font-weight:700;
+    cursor: pointer;
+}
+.searchform{
+    text-align: center;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group input{
+    height: 35px;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.details{
+    border: 2px solid;
+    margin: 50px auto;
+    background: antiquewhite;
+}
+
+.details .row{
+    margin: 50px;
+
+}
+
+.details img{
+    height: 420px;
+    width: 360px;
+    float: left;
+    padding: 10px;
+    margin-left:20px;
+}
+
+.btnback{
+    margin-left: 130px;
+    background-color:antiquewhite;!important;
+}
+
+h2{
+    padding-left:40px;
+}
+h4{
+    padding-left:400px;
+}
+h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.info{
+    padding: 10px 10px;
+}
+.infos{
+    margin:10px 50px;
+    text-align: justify;
+    padding-left: 100px;
+}
+
